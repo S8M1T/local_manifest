@@ -2,7 +2,10 @@
 <manifest>
 
         <remote name="me"
-          fetch="https://github.com/SumitOP787" />
+          fetch="https://github.com/S8M1T" />
+        
+        <remote name="pj"
+          fetch="https://github.com/pjgowtham" />
         
         <remote name="los"
           fetch="https://github.com/LineageOS" />
