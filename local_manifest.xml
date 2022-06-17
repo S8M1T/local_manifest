@@ -13,11 +13,5 @@
   <project path="kernel/oplus/sm8350" name="android_kernel_oplus_sm8350" remote="me" revision="voltage" />
         
   <project path="vendor/voltage/config" name="android_vendor_lineage" remote="me" revision="main" />
-        
-        <!-- Replacements -->
-      
-  <remove-project name="LineageOS/android_hardware_oplus" />
-      
-  <project path="hardware/oplus" name="hardware_oplus" remote="me" revision="lineage-19.1"/>
       
 </manifest>
