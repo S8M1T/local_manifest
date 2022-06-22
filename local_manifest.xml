@@ -23,7 +23,7 @@
      
   <project path="prebuilts/clang/host/linux-x86/proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1"/>
      
-  <remove-project name="LineageOS/android_packages_apps_Nfc"/>
+  <remove-project name="LineageOS/android_packages_apps_Nfc" path="packages/apps/Nfc"/>
      
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="evo" revision="snow"/>
   
