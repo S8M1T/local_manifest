@@ -8,11 +8,14 @@
           fetch="https://github.com/kdrag0n" /> 
 
       <remote name="me"
-          fetch="https://github.com/S8M1T" />
+          fetch="https://github.com/BittuBomda" />
       
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="me" revision="voltage"/>
-  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="me" revision="twelve" />
+  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="me" revision="12.1"/>
+     
+  <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="me" revision="12.1" />
+     
   <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-LTO" remote="projects-nexus" revision="qti" />
+     
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
   
 </manifest>
