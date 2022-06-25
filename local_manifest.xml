@@ -9,22 +9,15 @@
 
       <remote name="me"
           fetch="https://github.com/S8M1T" />
-     
-     <remote name="evo"
-          fetch="https://github.com/Evolution-X" />
       
   <project path="device/realme/RMX3031" name="android_device_realme_RMX3031" remote="me" revision="12.1"/>
      
-  <project path="vendor/realme/RMX3031" name="proprietary_vendor_realme_RMX3031" remote="me" revision="12.1" />
+  <project path="vendor/realme/RMX3031" name="proprietary_vendor_realme_RMX3031" remote="crd" revision="12.1" />
      
-  <project path="vendor/realme/IMS-RMX3031" name="proprietary_vendor_realme_RMX3031-IMS" remote="me" revision="12.1"/>
+  <project path="vendor/realme/IMS-RMX3031" name="proprietary_vendor_realme_RMX3031-IMS" remote="crd" revision="12.1"/>
      
   <project path="kernel/realme/RMX3031" name="android_kernel_realme_RMX3031" remote="crd" revision="12.1" clone-depth="1"/>
      
   <project path="prebuilts/clang/host/linux-x86/proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1"/>
-     
-  <remove-project name="LineageOS/android_packages_apps_Nfc" path="packages/apps/Nfc"/>
-     
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="evo" revision="snow"/>
   
 </manifest>
