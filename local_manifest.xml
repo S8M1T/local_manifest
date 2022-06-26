@@ -16,5 +16,7 @@
   <project path="kernel/realme/RMX3031" name="android_kernel_realme_RMX3031" remote="me" revision="12.1" clone-depth="1"/>
      
   <project path="prebuilts/clang/host/linux-x86/proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1"/>
+      
+  <remove-project name="hardware/qcom-caf/wlan" />
   
 </manifest>
