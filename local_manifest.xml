@@ -7,7 +7,7 @@
       <remote name="me"
           fetch="https://github.com/S8M1T" />
       
-  <project path="device/realme/RMX3031" name="device_realme_RMX3031" remote="me" revision="12l"/>
+  <project path="device/realme/RMX3031" name="device_realme_RMX3031-1" remote="me" revision="12l"/>
      
   <project path="vendor/realme/RMX3031" name="proprietary_vendor_realme_RMX3031" remote="me" revision="12.1" />
      
