@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
       
-      <remote name="kdrag0n"
-          fetch="https://github.com/kdrag0n" /> 
-
       <remote name="me"
           fetch="https://github.com/S8M1T" />
       
-  <project path="device/realme/RMX3031" name="android_device_realme_RMX3031" remote="me" revision="12.1"/>
+  <project path="device/oplus/RMX3360" name="android_device_oplus_RMX3360" remote="me" revision="lineage-19.1"/>
+      
+  <project path="device/oplus/sm8350-common" name="android_device_oplus_sm8350-common" remote="me" revision="lineage-19.1"/>
      
-  <project path="vendor/realme/RMX3031" name="proprietary_vendor_realme_RMX3031" remote="me" revision="12.1" />
+  <project path="vendor/oplus" name="proprietary_vendor_oplus" remote="me" revision="lineage-19.1" />
      
-  <project path="vendor/realme/IMS-RMX3031" name="proprietary_vendor_realme_RMX3031-IMS" remote="me" revision="12.1"/>
+  <project path="kernel/oplus/sm8350" name="android_kernel_oplus_sm8350" remote="me" revision="lineage-19.1" />
      
-  <project path="kernel/realme/RMX3031" name="android_kernel_realme_RMX3031" remote="me" revision="12.1" clone-depth="1"/>
+  <remove-project name="LineageOS/android_hardware_oplus" />
      
-  <project path="prebuilts/clang/host/linux-x86/proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1"/>
-     
-  <remove-project name="android_frameworks_base"/>
-     
-  <project path="frameworks/base" name="frameworks_base" remote="me" revision="arrow-12.1"/>
+  <project path="hardware/oplus" name="android_hardware_oplus" remote="me" revision="lineage-19.1"/>
   
 </manifest>
