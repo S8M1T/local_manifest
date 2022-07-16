@@ -16,8 +16,6 @@
      
   <project path="hardware/oplus" name="android_hardware_oplus" remote="me" revision="lineage-19.1"/>
       
-  <remove-project name="vendor_voltage" />
-      
-  <project path="vendor/voltage" name="vendor_voltage" remote="me" revision="12l"/>
+  <remove-project name="hardware_oneplus" />
   
 </manifest>
