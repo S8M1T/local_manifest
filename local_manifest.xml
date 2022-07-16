@@ -10,7 +10,7 @@
      
   <project path="vendor/oplus" name="proprietary_vendor_oplus" remote="me" revision="lineage-19.1" />
      
-  <project path="kernel/oplus/sm8350" name="android_kernel_oplus_sm8350" remote="me" revision="lineage-19.1" />
+  <project path="kernel/oplus/sm8350" name="android_kernel_oplus_sm8350" remote="me" revision="lineage-19.1-RMX3360" />
      
   <remove-project name="LineageOS/android_hardware_oplus" />
      
