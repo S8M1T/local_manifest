@@ -4,6 +4,9 @@
       <remote name="me"
           fetch="https://github.com/S8M1T" />
       
+      <remote name="kd"
+          fetch="https://github.com/kdrag0n" />
+      
   <project path="device/oplus/RMX3360" name="android_device_oplus_RMX3360" remote="me" revision="lineage-19.1"/>
       
   <project path="device/oplus/sm8350-common" name="android_device_oplus_sm8350-common" remote="me" revision="lineage-19.1"/>
@@ -17,9 +20,7 @@
   <project path="hardware/oplus" name="android_hardware_oplus" remote="me" revision="lineage-19.1"/>
       
   <remove-project name="hardware_oneplus" />
-
-  <remove-project name="platform/external/wpa_supplicant_8" />
-
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="me" revision="lineage-19.1"/>
+      
+   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kd" revision="master" clone-depth="1"/>
   
 </manifest>
