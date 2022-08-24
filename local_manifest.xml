@@ -4,21 +4,17 @@
       <remote name="me"
           fetch="https://github.com/S8M1T" />
       
-      <remote name="pj"
-          fetch="https://github.com/pjgowtham" />
+      <remote name="me-lab"
+          fetch="https://gitlab.com/S8M1T" />
       
   <project path="device/oplus/RMX3360" name="android_device_oplus_RMX3360" remote="me" revision="lineage-19.1"/>
       
   <project path="device/oplus/sm8350-common" name="android_device_oplus_sm8350-common" remote="me" revision="lineage-19.1"/>
      
-  <project path="vendor/oplus" name="proprietary_vendor_oplus" remote="me" revision="lineage-19.1" />
+  <project path="vendor/oplus" name="proprietary_vendor_oplus" remote="me-lab" revision="lineage-19.1" />
      
-  <project path="kernel/oplus/sm8350" name="android_kernel_oplus_sm8350" remote="pj" revision="lineage-19.1-RMX3360" />
+  <project path="kernel/oplus/sm8350" name="android_kernel_oplus_sm8350" remote="me" revision="lineage-19.1-RMX3360-S-source" />
      
   <project path="hardware/oplus" name="android_hardware_oplus" remote="me" revision="lineage-19.1"/>
-      
-  <remove-project name="android_frameworks_base" />
-      
-  <project path="frameworks/base" name="android_frameworks_base" remote="me" revision="lineage-19.1"/>
   
 </manifest>
