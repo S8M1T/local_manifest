@@ -8,7 +8,7 @@
           fetch="https://gitlab.com/S8M1T" />
       
       <remote name="crd"
-          fetch="https://gitlab.com/crdroidandroid" />
+          fetch="https://github.com/crdroidandroid" />
       
   <project path="device/oplus/RMX3360" name="android_device_oplus_RMX3360" remote="me" revision="lineage-19.1"/>
       
