@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-      
-      <remote name="me"
+
+  <remote name="me"
           fetch="https://github.com/S8M1T" />
-      
-      <remote name="me-gitlab"
-          fetch="https://gitlab.com/S8M1T" />
-      
-  <project path="device/oneplus/instantnoodlep" name="android_device_oneplus_instantnoodlep" remote="me" revision="12.1"/>
-     
-  <project path="device/oneplus/sm8250-common" name="android_device_oneplus_sm8250-common" remote="me" revision="12.1"/>
-     
-  <project path="vendor/oneplus/instantnoodlep" name="proprietary_vendor_oneplus_instantnoodlep" remote="me-gitlab" revision="12.1" />
-     
-  <project path="vendor/oneplus/sm8250-common" name="proprietary_vendor_oneplus_sm8250-common" remote="me-gitlab" revision="12.1"/>
-     
-  <project path="kernel/oneplus/sm8250" name="android_kernel_oneplus_sm8250" remote="me" revision="12.1"/>
-     
-  <project path="hardware/oneplus" name="android_hardware_oneplus" remote="me" revision="12.1-op8"/>
-      
-  <project path="vendor/oneplus/apps" name="android_vendor_oneplus_apps" remote="me-gitlab" revision="12.1"/>
   
+  <remote name="crd"
+          fetch="https://github.com/crdroidandroid" />
+  
+  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="me" revision="12.1" /> 
+  
+  <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="me" revision="12.1" />
+  
+  <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender" remote="crd" revision="qti" />
+ 
 </manifest>
