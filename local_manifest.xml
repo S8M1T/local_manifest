@@ -13,7 +13,7 @@
       <remote name="arrow"
           fetch="https://github.com/ArrowOS-Devices" />
      
-  <project path="device/oplus/RMX3360" name="android_device_oplus_RMX3360" remote="pj" revision="lineage-19.1"/>
+  <project path="device/oplus/RMX3360" name="android_device_oplus_RMX3360" remote="me" revision="lineage-19.1"/>
       
   <project path="device/oplus/sm8350-common" name="android_device_oplus_sm8350-common" remote="me" revision="lineage-19.1"/>
      
@@ -21,8 +21,12 @@
      
   <project path="kernel/oplus/sm8350" name="android_kernel_oplus_sm8350" remote="pj" revision="lineage-19.1-RMX3360-S-source" />
      
-  <project path="hardware/oplus" name="android_hardware_oplus" remote="pj" revision="lineage-19.1"/>
+  <project path="hardware/oplus" name="android_hardware_oplus" remote="me" revision="lineage-19.1"/>
       
   <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="arrow" revision="arrow-11.0" />
+      
+  <remove-project name="RiceDroid/android_frameworks_base"/>
+      
+  <project path="frameworks/base" name="android_frameworks_base" remote="me" revision="twelve"/>
       
 </manifest>
