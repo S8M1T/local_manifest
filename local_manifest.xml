@@ -25,8 +25,4 @@
       
   <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="crd" revision="11.0" />
       
-  <remove-project name="RiceDroid/android_frameworks_base"/>
-      
-  <project path="frameworks/base" name="android_frameworks_base" remote="me" revision="twelve"/>
-      
 </manifest>
