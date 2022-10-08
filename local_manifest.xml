@@ -10,8 +10,8 @@
       <remote name="me"
           fetch="https://github.com/S8M1T" />
       
-      <remote name="arrow"
-          fetch="https://github.com/ArrowOS-Devices" />
+      <remote name="crd"
+          fetch="https://github.com/crdroidandroid" />
      
   <project path="device/oplus/RMX3360" name="android_device_oplus_RMX3360" remote="me" revision="lineage-19.1"/>
       
@@ -23,7 +23,7 @@
      
   <project path="hardware/oplus" name="android_hardware_oplus" remote="me" revision="lineage-19.1"/>
       
-  <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="arrow" revision="arrow-11.0" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="crd" revision="11.0" />
       
   <remove-project name="RiceDroid/android_frameworks_base"/>
       
