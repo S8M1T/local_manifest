@@ -25,4 +25,6 @@
       
   <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="crd" revision="11.0" />
       
+  <project path="vendor/extra" name="android_vendor_extra" remote="me" revision="lineage-19.1"/>
+      
 </manifest>
