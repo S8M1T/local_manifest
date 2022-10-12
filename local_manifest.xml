@@ -3,23 +3,23 @@
      
       <remote name="me"
           fetch="https://github.com/S8M1T" />
+     
+     <remote name="me-lab"
+          fetch="https://gitlab.com/S8M1T" />
       
      <remote name="kdrag0n"
           fetch="https://github.com/kdrag0n" />
-
-     <remote name="crd"
-          fetch="https://github.com/crdroidandroid" />
      
-  <project path="device/realme/RMX3031" name="android_device_realme_RMX3031" remote="me" revision="12.1"/>
+  <project path="device/realme/RMX3031" name="device_realme_RMX3031" remote="me" revision="thirteen"/>
      
-  <project path="vendor/realme/RMX3031" name="proprietary_vendor_realme_RMX3031" remote="me" revision="12.1"/>
+  <project path="vendor/realme/RMX3031" name="vendor_realme_RMX3031" remote="me" revision="eleven"/>
      
-  <project path="kernel/realme/RMX3031" name="android_kernel_realme_RMX3031" remote="me" revision="12.1" clone-depth="1"/>
+  <project path="vendor/realme/IMS-RMX3031" name="vendor_realme_IMS-RMX3031" remote="me" revision="twelve"/>
      
-  <project path="prebuilts/clang/host/linux-x86/clang-6443078" name="android_prebuilts_clang_host_linux-x86_clang-6443078" remote="me" revision="11.0.1" clone-depth="1"/>
-
-  <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="crd" revision="11.0" clone-depth="1"/>
-     
+  <project path="kernel/realme/RMX3031" name="kernel_realme_RMX3031" remote="me" revision="R" clone-depth="1"/>
+  
   <project path="prebuilts/clang/host/linux-x86/proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1"/>
+     
+  <project path="packages/apps/prebuilt-apps/" name="packages_apps_prebuilt-apps" remote="me-lab" revision="master" clone-depth="1"/>
   
 </manifest>
