@@ -25,10 +25,10 @@
       
   <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="crd" revision="11.0" />
       
-  <project path="vendor/extra" name="android_vendor_extra" remote="me" revision="lineage-19.1"/>
-      
   <remove-project name="android_frameworks_base"/>
       
   <project path="frameworks/base" name="flos_frameworks_base" remote="me" revision="lineage-19.1"/>
+      
+  <project path="packages/apps/prebuilt-apps/" name="packages_apps_prebuilt-apps" remote="me-lab" revision="master" clone-depth="1"/>
       
 </manifest>
