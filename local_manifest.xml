@@ -10,6 +10,9 @@
       <remote name="me"
           fetch="https://github.com/S8M1T" />
       
+      <remote name="me-lab"
+          fetch="https://gitlab.com/S8M1T" />
+      
       <remote name="crd"
           fetch="https://github.com/crdroidandroid" />
      
