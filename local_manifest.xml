@@ -4,8 +4,8 @@
       <remote name="me"
           fetch="https://github.com/S8M1T" />
      
-     <remote name="me-lab"
-          fetch="https://gitlab.com/S8M1T" />
+     <remote name="lab"
+          fetch="https://gitlab.com/nishant6342" />
       
      <remote name="kdrag0n"
           fetch="https://github.com/kdrag0n" />
@@ -20,6 +20,6 @@
   
   <project path="prebuilts/clang/host/linux-x86/proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1"/>
      
-  <project path="packages/apps/prebuilt-apps/" name="packages_apps_prebuilt-apps" remote="me-lab" revision="master" clone-depth="1"/>
+  <project path="packages/apps/prebuilt-apps/" name="packages_apps_prebuilt-apps" remote="lab" revision="master" clone-depth="1"/>
   
 </manifest>
