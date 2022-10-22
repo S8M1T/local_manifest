@@ -13,7 +13,7 @@
      <remote name="kdrag0n"
           fetch="https://github.com/kdrag0n" />
      
-  <project path="device/realme/RMX3031" name="device_realme_RMX3031" remote="me" revision="thirteen"/>
+  <project path="device/realme/RMX3031" name="android_device_realme_RMX3031" remote="me" revision="thirteen"/>
      
   <project path="vendor/realme/RMX3031" name="vendor_realme_RMX3031" remote="me" revision="eleven"/>
      
